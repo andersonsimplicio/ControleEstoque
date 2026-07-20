@@ -1,11 +1,16 @@
 # model/database.py
 import sqlite3
+import os
+
 
 class DatabaseManager:
     def __init__(self, db_name="estoque.db"):
-        self.db_name = db_name
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        self.db_name = os.path.join(base_dir, db_name)
+        self.conn = None
         self.conn = None
         self.cursor = None
+        self._criar_tabelas()
         self._conectar()
         self._criar_tabelas()
 
