@@ -1,0 +1,65 @@
+# ==========================================
+# Banco de Dados Local (SQLite3)
+# ==========================================
+# Ignora arquivos de banco gerados localmente para não sobrescrever dados de testes
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# ==========================================
+# Ambientes Virtuais do Python
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Byte-code e Cache do Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# Configurações de IDEs e Editores
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# Outros editores
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Logs e Arquivos Temporários
+# ==========================================
+*.log
+*.tmp
+*.bak
+
+# ==========================================
+# Variáveis de Ambiente e Segredos
+# ==========================================
+.env
+.env.local
+
+# ==========================================
+# Arquivos do Sistema Operacional
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
