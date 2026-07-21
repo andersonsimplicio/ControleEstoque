@@ -61,3 +61,27 @@ controle_estoque/
 ├── main.py                    # Ponto de entrada da aplicação
 ├── .gitignore                 # Arquivos ignorados pelo Git
 └── README.md                  # Documentação do projeto
+```
+
+1. Clone este repositório
+$ git clone [https://github.com/andersonsimplicio/ControleEstoque.git](https://github.com/andersonsimplicio/ControleEstoque.git)
+
+2. Acesse a pasta do projeto
+- $ cd ControleEstoque
+
+3. Crie e ative um ambiente virtual
+Windows (PowerShell):
+> python -m venv venv
+> venv\Scripts\Activate.ps1
+
+Linux / macOS:
+$python3 -m venv venv$ source venv/bin/activate
+
+4. Instale as dependências
+$pip install -r requirements.txt
+
+5. Execute a aplicação
+$ python main.py
+
+---
+
